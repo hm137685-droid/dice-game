@@ -43,11 +43,5 @@ function showDice(diceId, number) {
 
 rollDice();
 
-
 let btn = document.querySelector("button");
 if (btn) { btn.addEventListener("click", rollDice);}
-
-
-
-    
-  btn.addEventListener("click", rollDi
