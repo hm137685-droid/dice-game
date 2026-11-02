@@ -18,7 +18,7 @@ if (randomNum1 > randomNum2) {
 
 //dots function
 function showDice(diceId, number) {
-    let dice = document.getElementById(diceId); // ye andar hona chahiye
+    let dice = document.getElementById(diceId);
     dice.innerHTML = "";
 
     //dot positions
